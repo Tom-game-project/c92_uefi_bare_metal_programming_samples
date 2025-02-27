@@ -7,7 +7,6 @@ all:main.efi
 	lld-link /subsystem:efi_application /entry:efi_main /out:$@ $<
 
 
-
 run: fs/EFI/BOOT/BOOTX64.EFI
 	qemu-system-x86_64 -bios /usr/share/ovmf/OVMF.fd -hda fat:fs
 

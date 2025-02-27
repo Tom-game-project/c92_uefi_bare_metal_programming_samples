@@ -2,6 +2,7 @@
 *.EFI
 *.efi
 *.txt
+*.o
 fs
 
 GPATH
