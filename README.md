@@ -9,3 +9,18 @@
 以下のページで公開しています。
 
 * http://yuma.ohgami.jp/
+
+
+## USBにEFIを書き込む手順
+
+アプリケーションの`Disks`を使うとUSBのmount先がわかる
+
+ディレクトリが作成できていなければ適宜作る
+
+```bash
+sudo umount /dev/sda1
+sudo mount /dev/sda1 /mnt/usbmem
+sudo cp <作成したEFIファイル> /mnt/usbmem/EFI/BOOT
+sudo umount /mnt/usbmem
+```
+

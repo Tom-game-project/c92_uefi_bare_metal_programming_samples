@@ -1,5 +1,6 @@
 *~
 *.EFI
+*.efi
 *.txt
 fs
 
@@ -8,3 +9,6 @@ GRTAG
 GSYMS
 GTAGS
 GRTAGS
+
+# vim
+*.swp
