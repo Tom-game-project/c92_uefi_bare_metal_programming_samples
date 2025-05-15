@@ -24,3 +24,8 @@ sudo cp <作成したEFIファイル> /mnt/usbmem/EFI/BOOT
 sudo umount /mnt/usbmem
 ```
 
+UEFIファームウェアのバイナリを配置する
+```
+./third_party/ovmf/RELEASEX64_OVMF.fd
+```
+

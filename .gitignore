@@ -13,3 +13,7 @@ GRTAGS
 
 # vim
 *.swp
+*.swo
+
+# third party (UEFI farmware)
+third_party/
